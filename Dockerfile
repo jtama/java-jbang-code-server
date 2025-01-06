@@ -1,5 +1,10 @@
 FROM linuxserver/code-server:4.96.2
 
+LABEL org.opencontainers.image.source=https://github.com/jtama/java-jbang-code-server
+LABEL org.opencontainers.image.description="A code server preconfigured with java and JBang"
+LABEL org.opencontainers.image.licenses="Apache 2.0"
+
+
 ENV JAVA_HOME=/opt/java/openjdk
 ENV JBANG_HOME=/jbang/bin
 
