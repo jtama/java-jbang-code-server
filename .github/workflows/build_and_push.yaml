@@ -29,6 +29,6 @@ jobs:
           sbom: true
           tags: |
              ghcr.io/jtama/java_jbang_codeserver:latest
-             ghcr.io/jtama/java_jbang_codeserver:23
+             ghcr.io/jtama/java_jbang_codeserver:24
 
 

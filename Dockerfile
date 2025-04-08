@@ -9,7 +9,7 @@ ENV JAVA_HOME=/opt/java/openjdk
 ENV JBANG_HOME=/jbang/bin
 ENV MAVEN_HOME=/usr/share/maven
 
-COPY --from=eclipse-temurin:23 $JAVA_HOME $JAVA_HOME
+COPY --from=eclipse-temurin:24 $JAVA_HOME $JAVA_HOME
 COPY --from=jbangdev/jbang-action:0.119.0 $JBANG_HOME $JBANG_HOME
 COPY --from=maven:3.9.9-eclipse-temurin-17 $MAVEN_HOME $MAVEN_HOME
 
